@@ -4,7 +4,7 @@
     background: url('https://t4.ftcdn.net/jpg/02/25/16/75/360_F_225167589_FHxfWWr96xXOrOBowtydCaklzluZmzcs.webp') no-repeat 50%/cover;
     // background-position-y: -100px;
     padding-top: 205px;
-    .title {
+    &__title {
         width: 535px;
         margin-top: 10px;
         color: #fff
@@ -13,6 +13,7 @@
         position: relative;
         @include before_circle;
         z-index: 2;
+        color: #fff
     }
     &__btns {
         margin-top: 25px;
